@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-navy: #0F172A;
+  --color-accent-gold: #C9A227;
+  --color-gold-glow: #DFB83F;
+  --color-text-dark: #1E293B;
+  --color-success-emerald: #10B981;
+  
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --animate-gold-glow: gold-glow 2s infinite ease-in-out;
+  --animate-float: float-animation 6s infinite ease-in-out;
+  --animate-pulse-slow: pulse-slow 8s infinite ease-in-out;
+  --animate-reveal-image: reveal-image 1.2s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+  
+  @keyframes gold-glow {
+    0%, 100% {
+      box-shadow: 0 0 5px rgba(201, 162, 39, 0.2), 0 0 15px rgba(201, 162, 39, 0.1);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(201, 162, 39, 0.4), 0 0 35px rgba(201, 162, 39, 0.2);
+    }
+  }
+  @keyframes float-animation {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+  }
+  @keyframes pulse-slow {
+    0%, 100% { opacity: 0.15; }
+    50% { opacity: 0.35; }
+  }
+  @keyframes reveal-image {
+    0% { transform: scale(1.08); filter: blur(5px); }
+    100% { transform: scale(1); filter: blur(0px); }
+  }
+}
+
+:root {
+  --background: #F8FAFC;
+  --foreground: #1E293B;
+  --card-bg: rgba(255, 255, 255, 0.85);
+  --card-border: rgba(15, 23, 42, 0.06);
+  --primary-navy: #0F172A;
+  --accent-gold: #C9A227;
+  --nav-bg: rgba(248, 250, 252, 0.8);
+}
+
+.dark {
+  --background: #090D16;
+  --foreground: #F8FAFC;
+  --card-bg: rgba(15, 23, 42, 0.55);
+  --card-border: rgba(201, 162, 39, 0.12);
+  --primary-navy: #F8FAFC;
+  --accent-gold: #DFB83F;
+  --nav-bg: rgba(9, 13, 22, 0.8);
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  transition: background-color 0.4s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-gold);
+  border-radius: 4px;
+  border: 2px solid var(--background);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B38E1E;
+}
+
+/* Glassmorphism Classes */
+.glass-effect {
+  background: var(--nav-bg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--card-border);
+}
+
+.glass-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--card-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02);
+}
+
+/* Timeline Custom styles */
+.timeline-line {
+  background: linear-gradient(to bottom, transparent, var(--accent-gold) 15%, var(--accent-gold) 85%, transparent);
+}
+
+/* Gold text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F3D066 0%, #C9A227 50%, #9A7715 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Hide default scrollbar in sliders */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Typing Cursor */
+.cursor-blink::after {
+  content: "|";
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Global Dark Mode Typography Contrast Overrides */
+.dark .text-primary-navy {
+  color: #FFFFFF !important;
+}
+.dark .text-slate-800 {
+  color: #F8FAFC !important;
+}
+.dark .text-slate-700 {
+  color: #F1F5F9 !important; /* slate-100 */
+}
+.dark .text-slate-600 {
+  color: #E2E8F0 !important; /* slate-200 */
+}
+.dark .text-slate-500 {
+  color: #CBD5E1 !important; /* slate-300 */
+}
+.dark .text-slate-400 {
+  color: #94A3B8 !important; /* slate-400 */
+}
+
