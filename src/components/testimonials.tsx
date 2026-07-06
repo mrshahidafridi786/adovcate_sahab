@@ -8,25 +8,25 @@ const TESTIMONIALS = [
   {
     name: 'Tariq Mahmood',
     role: 'Executive Director, Peshawar Retail Group',
-    review: 'Advocate Atif Khattak resolved a complex tax audit issue for our retail group with FBR. His grasp of KP revenue laws and FBR procedural codes is outstanding. He saved us from unjustified penal assessments.',
+    review: 'Advocate Khurshid Azam resolved a complex tax audit issue for our retail group with FBR. His grasp of KP revenue laws and FBR procedural codes is outstanding. He saved us from unjustified penal assessments.',
     stars: 5,
   },
   {
     name: 'Sajjad Ahmad Khan',
     role: 'General Secretary, KPK Secretariats Alliance',
-    review: 'Mr. Atif acted as legal advisor for our union writ in the High Court regarding employee scales. His command over administrative service rules and persuasive argument won us our relief.',
+    review: 'Mr. Khurshid acted as legal advisor for our union writ in the High Court regarding employee scales. His command over administrative service rules and persuasive argument won us our relief.',
     stars: 5,
   },
   {
     name: 'Dr. Maria Yusuf',
     role: 'Associate Professor, Peshawar',
-    review: 'I approached Advocate Atif regarding a complicated family property partition suit. He showed tremendous professionalism, maintained strict confidentiality, and settled the dispute through strategic mediation.',
+    review: 'I approached Advocate Khurshid Azam regarding a complicated family property partition suit. He showed tremendous professionalism, maintained strict confidentiality, and settled the dispute through strategic mediation.',
     stars: 5,
   },
   {
     name: 'Aimal Khan Khattak',
     role: 'CEO, Khattak & Sons Logistics',
-    review: 'We retain Mr. Atif for drafting and vetting our transport and labor contracts. His legal advisory is highly preventative, helping us avoid disputes before they ever reach the courtroom.',
+    review: 'We retain Mr. Khurshid for drafting and vetting our transport and labor contracts. His legal advisory is highly preventative, helping us avoid disputes before they ever reach the courtroom.',
     stars: 5,
   },
 ];

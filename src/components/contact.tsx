@@ -42,7 +42,7 @@ export default function Contact() {
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('advocate.atifkhattak@gmail.com');
+    navigator.clipboard.writeText('advocate.khurshidazam@gmail.com');
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2000);
   };
@@ -96,7 +96,7 @@ export default function Contact() {
                       Request Submitted Successfully
                     </h4>
                     <p className="text-xs text-slate-500 dark:text-slate-400 max-w-sm leading-relaxed">
-                      Thank you for contacting Advocate Atif Khattak. We will review your query and contact you within 24 hours.
+                      Thank you for contacting Advocate Khurshid Azam. We will review your query and contact you within 24 hours.
                     </p>
                   </motion.div>
                 ) : (
@@ -238,8 +238,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-[10px] tracking-widest font-bold uppercase text-slate-400 mb-1">Contact Office</h4>
-                    <a href="tel:+923339136195" className="text-xs font-semibold text-primary-navy dark:text-white hover:text-accent-gold transition-colors">
-                      +92 333 9136195
+                    <a href="tel:+923369592956" className="text-xs font-semibold text-primary-navy dark:text-white hover:text-accent-gold transition-colors">
+                      +92 336 9592956
                     </a>
                   </div>
                 </div>
@@ -251,8 +251,8 @@ export default function Contact() {
                   <div className="flex-1">
                     <h4 className="text-[10px] tracking-widest font-bold uppercase text-slate-400 mb-1">Send Email</h4>
                     <div className="flex items-center justify-between gap-2">
-                      <a href="mailto:advocate.atifkhattak@gmail.com" className="text-xs font-semibold text-primary-navy dark:text-white hover:text-accent-gold transition-colors truncate">
-                        advocate.atifkhattak@gmail.com
+                      <a href="mailto:advocate.khurshidazam@gmail.com" className="text-xs font-semibold text-primary-navy dark:text-white hover:text-accent-gold transition-colors truncate">
+                        advocate.khurshidazam@gmail.com
                       </a>
                       <button
                         onClick={copyEmail}
@@ -283,12 +283,15 @@ export default function Contact() {
             </motion.div>
 
             {/* Google Map Premium Vector Placeholder */}
-            <motion.div
+            <motion.a
+              href="https://www.google.com/maps?q=0x38d9118c4ad8ec5d:0x40d0dc5b86da06be"
+              target="_blank"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="glass-card h-48 rounded-3xl border-slate-100 dark:border-slate-800/80 shadow-md relative overflow-hidden flex flex-col justify-center items-center p-6 text-center"
+              className="glass-card h-48 rounded-3xl border-slate-100 dark:border-slate-800/80 shadow-md relative overflow-hidden flex flex-col justify-center items-center p-6 text-center cursor-pointer hover:border-accent-gold/40 transition-colors"
             >
               {/* Premium Vector Grid map background */}
               <div className="absolute inset-0 opacity-[0.06] dark:opacity-[0.1] bg-grid-slate-400 pointer-events-none">
@@ -305,9 +308,9 @@ export default function Contact() {
                 Peshawar Chambers Location Map
               </h4>
               <p className="text-[10px] text-slate-500 dark:text-slate-400 max-w-xs mt-1 relative z-10 leading-relaxed">
-                Adjacent to the Peshawar High Court Building, Khyber Road, Peshawar Civil Lines.
+                Chambers of Advocate Khurshid Azam, Peshawar, Khyber Pakhtunkhwa. Click to view on Google Maps.
               </p>
-            </motion.div>
+            </motion.a>
           </div>
 
         </div>

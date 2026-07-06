@@ -53,7 +53,7 @@ export default function WhyChooseMe() {
             Our Commitment
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-primary-navy dark:text-white mb-4">
-            Why Choose Muhammad Atif Khattak
+            Why Choose Khurshid Azam
           </h2>
           <div className="w-12 h-1 bg-accent-gold mx-auto mb-4" />
           <p className="text-sm text-slate-500 dark:text-slate-400">

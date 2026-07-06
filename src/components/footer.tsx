@@ -48,7 +48,7 @@ export default function Footer() {
             </div>
             <div>
               <span className="block font-serif text-lg font-bold tracking-wider uppercase text-white">
-                M. Atif Khattak
+                Khurshid Azam
               </span>
               <span className="block text-[10px] tracking-[0.2em] font-medium text-accent-gold/80 uppercase">
                 Advocate High Court
@@ -61,7 +61,7 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex items-center gap-3 pt-2">
             <a
-              href="https://wa.me/923339136195"
+              href="https://wa.me/923369592956"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded bg-white/5 hover:bg-accent-gold/10 hover:text-accent-gold transition-colors text-slate-400"
@@ -79,7 +79,7 @@ export default function Footer() {
               <Linkedin className="w-4 h-4" />
             </a>
             <a
-              href="mailto:advocate.atifkhattak@gmail.com"
+              href="mailto:advocate.khurshidazam@gmail.com"
               className="p-2 rounded bg-white/5 hover:bg-accent-gold/10 hover:text-accent-gold transition-colors text-slate-400"
               title="Email Office"
             >
@@ -173,14 +173,14 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-2.5">
               <Phone className="w-4 h-4 text-accent-gold shrink-0" />
-              <a href="tel:+923339136195" className="hover:text-accent-gold transition-colors">
-                +92 333 9136195
+              <a href="tel:+923369592956" className="hover:text-accent-gold transition-colors">
+                +92 336 9592956
               </a>
             </li>
             <li className="flex items-center gap-2.5">
               <Mail className="w-4 h-4 text-accent-gold shrink-0" />
-              <a href="mailto:advocate.atifkhattak@gmail.com" className="hover:text-accent-gold transition-colors truncate">
-                advocate.atifkhattak@gmail.com
+              <a href="mailto:advocate.khurshidazam@gmail.com" className="hover:text-accent-gold transition-colors truncate">
+                advocate.khurshidazam@gmail.com
               </a>
             </li>
           </ul>
@@ -191,7 +191,7 @@ export default function Footer() {
       {/* Footer Bottom copyright */}
       <div className="max-w-7xl mx-auto px-6 border-t border-slate-800/80 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] text-slate-500 font-sans font-semibold tracking-wider uppercase">
         <div>
-          © {new Date().getFullYear()} Muhammad Atif Khattak. All Rights Reserved.
+          © {new Date().getFullYear()} Khurshid Azam. All Rights Reserved.
         </div>
         <div className="flex items-center gap-1.5">
           <span>Designed with Professionalism</span>

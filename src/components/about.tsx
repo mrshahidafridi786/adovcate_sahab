@@ -111,10 +111,10 @@ export default function About() {
                 Biography
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-primary-navy dark:text-white mb-6">
-                About Muhammad Atif Khattak
+                About Khurshid Azam
               </h2>
               <p className="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed font-sans text-base">
-                Muhammad Atif Khattak is a highly respected, multi-disciplinary practicing lawyer in Peshawar, specializing in litigation, civil disputes, criminal defence, taxation matters, and corporate advisory. He serves as a Panel Advocate at the Board of Intermediate and Secondary Education (BISE) Peshawar and represents civil servants as the Legal Advisor to the All Employees Coordination Council, Civil Secretariat KPK.
+                Khurshid Azam is a highly respected, multi-disciplinary practicing lawyer in Peshawar, specializing in litigation, civil disputes, criminal defence, taxation matters, and corporate advisory. He serves as a Panel Advocate at the Board of Intermediate and Secondary Education (BISE) Peshawar and represents civil servants as the Legal Advisor to the All Employees Coordination Council, Civil Secretariat KPK.
               </p>
               <p className="text-slate-600 dark:text-slate-300 mb-8 leading-relaxed font-sans text-base">
                 With a deep understanding of regional regulations and an extensive litigation history at the High Court, he serves individuals, corporations, and public sector associations with strategic wisdom and professional diligence.

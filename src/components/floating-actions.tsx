@@ -33,7 +33,7 @@ export default function FloatingActions() {
       <div className="fixed bottom-6 right-6 z-40 flex flex-col gap-3">
         {/* WhatsApp Button */}
         <motion.a
-          href="https://wa.me/923339136195?text=Hello%20Advocate%20Atif%20Khattak,%20I%20would%20like%20to%20schedule%20a%20legal%20consultation."
+          href="https://wa.me/923369592956?text=Hello%20Advocate%20Khurshid%20Azam,%20I%20would%20like%20to%20schedule%20a%20legal%20consultation."
           target="_blank"
           rel="noopener noreferrer"
           initial={{ scale: 0, opacity: 0 }}
@@ -72,7 +72,7 @@ export default function FloatingActions() {
       {/* Quick Action sticky Call Button (Bottom Left) */}
       <div className="fixed bottom-6 left-6 z-40">
         <motion.a
-          href="tel:+923339136195"
+          href="tel:+923369592956"
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 1.2 }}

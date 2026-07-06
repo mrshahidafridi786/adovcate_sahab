@@ -48,11 +48,11 @@ export default function LoadingScreen() {
               <div className="w-20 h-20 border border-accent-gold/40 flex items-center justify-center rounded-full mb-6 relative">
                 <div className="absolute inset-1 border border-accent-gold/20 rounded-full animate-pulse-slow" />
                 <span className="font-serif text-3xl font-semibold tracking-wider text-accent-gold">
-                  MAK
+                  KA
                 </span>
               </div>
               <h1 className="font-serif text-2xl md:text-3xl font-bold tracking-[0.18em] text-slate-100 uppercase">
-                Muhammad Atif Khattak
+                Khurshid Azam
               </h1>
               <p className="mt-3 text-xs md:text-sm tracking-[0.3em] text-accent-gold font-medium uppercase">
                 Advocate High Court

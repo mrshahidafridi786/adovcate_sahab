@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Download, Scale, Award, ShieldAlert, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Scale, Award, ShieldAlert, CheckCircle2 } from 'lucide-react';
 
 const ROLES = [
   'Advocate High Court',
@@ -93,7 +93,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-primary-navy dark:text-white leading-[1.1] mb-4"
           >
-            Muhammad Atif Khattak
+            Khurshid Azam
           </motion.h1>
 
           <motion.div
@@ -130,14 +130,7 @@ export default function Hero() {
               Book Consultation
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </a>
-            <a
-              href="/atif-khattak-cv.pdf"
-              download="Muhammad_Atif_Khattak_CV.pdf"
-              className="px-8 py-3.5 rounded-lg text-sm font-semibold uppercase tracking-wider border border-slate-300 dark:border-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all duration-300 flex items-center justify-center gap-2"
-            >
-              Download Profile
-              <Download className="w-4 h-4" />
-            </a>
+
           </motion.div>
         </div>
 
@@ -158,8 +151,8 @@ export default function Hero() {
               className="w-[90%] h-[90%] rounded-full overflow-hidden border-4 border-white dark:border-slate-900 shadow-2xl relative z-10 animate-reveal-image"
             >
               <img
-                src="/atif-khattak.jpg"
-                alt="Muhammad Atif Khattak"
+                src="/khurshid-azam.jpg"
+                alt="Advocate Khurshid Azam"
                 className="w-full h-full object-cover scale-[1.05] hover:scale-[1.12] transition-transform duration-700"
               />
             </motion.div>

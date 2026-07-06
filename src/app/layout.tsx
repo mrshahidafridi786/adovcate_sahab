@@ -20,22 +20,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Muhammad Atif Khattak | Advocate High Court | Peshawar',
+  title: 'Advocate Khurshid Azam | Advocate High Court | Peshawar',
   description: 'Professional Lawyer in Peshawar providing legal consultation, litigation, tax law, civil law, criminal law, corporate legal advisory, and court representation.',
-  keywords: 'Muhammad Atif Khattak, Advocate High Court, Peshawar Lawyer, Tax Practitioner Peshawar, Legal Advisor Secretariat KPK, Peshawar Advocate, Legal Services Peshawar, Civil Secretariat Lawyer',
-  authors: [{ name: 'Muhammad Atif Khattak' }],
-  creator: 'Muhammad Atif Khattak',
+  keywords: 'Advocate Khurshid Azam, Khurshid Azam, Advocate High Court, Peshawar Lawyer, Tax Practitioner Peshawar, Legal Advisor Secretariat KPK, Peshawar Advocate, Legal Services Peshawar, Civil Secretariat Lawyer',
+  authors: [{ name: 'Advocate Khurshid Azam' }],
+  creator: 'Advocate Khurshid Azam',
   openGraph: {
-    title: 'Muhammad Atif Khattak | Advocate High Court | Peshawar',
+    title: 'Advocate Khurshid Azam | Advocate High Court | Peshawar',
     description: 'Professional Lawyer in Peshawar providing legal consultation, litigation, tax law, civil law, criminal law, corporate legal advisory, and court representation.',
-    url: 'https://atifkhattak.com',
-    siteName: 'Muhammad Atif Khattak Portfolio',
+    url: 'https://khurshidazam.com',
+    siteName: 'Advocate Khurshid Azam Portfolio',
     images: [
       {
-        url: '/atif-khattak.jpg',
+        url: '/khurshid-azam.jpg',
         width: 600,
         height: 600,
-        alt: 'Muhammad Atif Khattak - Advocate High Court',
+        alt: 'Advocate Khurshid Azam - Advocate High Court',
       },
     ],
     locale: 'en_PK',
@@ -43,9 +43,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Muhammad Atif Khattak | Advocate High Court | Peshawar',
+    title: 'Advocate Khurshid Azam | Advocate High Court | Peshawar',
     description: 'Professional Lawyer in Peshawar providing legal consultation, litigation, tax law, civil law, criminal law, corporate legal advisory, and court representation.',
-    images: ['/atif-khattak.jpg'],
+    images: ['/khurshid-azam.jpg'],
   },
   robots: {
     index: true,
@@ -58,16 +58,16 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Person',
-      '@id': 'https://atifkhattak.com/#person',
-      'name': 'Muhammad Atif Khattak',
+      '@id': 'https://khurshidazam.com/#person',
+      'name': 'Advocate Khurshid Azam',
       'jobTitle': 'Advocate High Court & Tax Practitioner',
       'worksFor': {
         '@type': 'LegalService',
-        'name': 'Muhammad Atif Khattak Chambers'
+        'name': 'Advocate Khurshid Azam Chambers'
       },
-      'image': 'https://atifkhattak.com/atif-khattak.jpg',
+      'image': 'https://khurshidazam.com/khurshid-azam.jpg',
       'description': 'Professional Advocate High Court in Peshawar, specializing in litigation, taxation, civil, criminal and corporate legal advice.',
-      'url': 'https://atifkhattak.com',
+      'url': 'https://khurshidazam.com',
       'address': {
         '@type': 'PostalAddress',
         'addressLocality': 'Peshawar',
@@ -77,15 +77,15 @@ const jsonLd = {
     },
     {
       '@type': 'LegalService',
-      'name': 'Muhammad Atif Khattak Chambers',
-      'image': 'https://atifkhattak.com/atif-khattak.jpg',
+      'name': 'Advocate Khurshid Azam Chambers',
+      'image': 'https://khurshidazam.com/khurshid-azam.jpg',
       'address': {
         '@type': 'PostalAddress',
         'addressLocality': 'Peshawar High Court, Peshawar',
         'addressRegion': 'Khyber Pakhtunkhwa',
         'addressCountry': 'Pakistan'
       },
-      'telephone': '+923339136195',
+      'telephone': '+923369592956',
       'priceRange': '$$',
       'openingHours': 'Mo-Fr 09:00-17:00'
     }

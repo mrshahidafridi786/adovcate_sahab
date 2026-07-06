@@ -6,8 +6,8 @@ import { Plus, Minus, HelpCircle } from 'lucide-react';
 
 const FAQS = [
   {
-    question: 'How can I book a consultation with Advocate Atif Khattak?',
-    answer: 'You can book a consultation by filling out the contact form on this website, clicking the floating WhatsApp button to chat instantly, or calling our Peshawar chambers directly at +92 333 9136195. Our team will coordinate a time.',
+    question: 'How can I book a consultation with Advocate Khurshid Azam?',
+    answer: 'You can book a consultation by filling out the contact form on this website, clicking the floating WhatsApp button to chat instantly, or calling our Peshawar chambers directly at +92 336 9592956. Our team will coordinate a time.',
   },
   {
     question: 'Which legal matters do you handle?',

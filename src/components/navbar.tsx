@@ -80,7 +80,7 @@ export default function Navbar() {
           </div>
           <div>
             <span className="block font-serif text-lg font-bold tracking-wider text-primary-navy dark:text-white uppercase transition-colors group-hover:text-accent-gold">
-              M. Atif Khattak
+              Khurshid Azam
             </span>
             <span className="block text-[10px] tracking-[0.2em] font-medium text-slate-500 dark:text-accent-gold/80 uppercase">
               Advocate High Court
